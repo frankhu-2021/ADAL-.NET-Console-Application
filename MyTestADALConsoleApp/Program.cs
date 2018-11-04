@@ -13,6 +13,7 @@ namespace MyTestADALConsoleApp
 {
     class Program
     {
+
         private static string resourceUri = "https://graph.microsoft.com";
         private static string clientId = "41b496dd-7c22-437d-9d5f-23bb7b1f6d33";
         private static string redirectUri = "https://mytestredirecturi.com";
