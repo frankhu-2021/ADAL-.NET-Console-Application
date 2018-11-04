@@ -15,10 +15,10 @@ namespace MyTestADALConsoleApp
     {
 
         private static string resourceUri = "https://graph.microsoft.com";
-        private static string clientId = "41b496dd-7c22-437d-9d5f-23bb7b1f6d33";
-        private static string redirectUri = "https://mytestredirecturi.com";
+        private static string clientId = "<Replace With Your Client ID> ";
+        private static string redirectUri = "<Replace with your Redirect URI> ";
         private static string authority = "https://login.microsoftonline.com/";
-        private static string tenantID = "ActiveDirectoryTestFrank.onmicrosoft.com";
+        private static string tenantID = "<Replace with your TenantID>";
         private static AuthenticationContext authContext = null;
         private static AuthenticationResult result = null;
         private static HttpClient httpClient = new HttpClient();
