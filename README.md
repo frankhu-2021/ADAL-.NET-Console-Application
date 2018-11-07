@@ -13,3 +13,7 @@ In addition to that, if you're interested in the Microsoft Graph SDK, feel free 
 https://blogs.msdn.microsoft.com/aaddevsup/2018/11/07/how-to-use-the-net-microsoft-graph-sdk-to-get-users-and-get-next-page-of-results/
 
 
+# Support
+
+If there are any issues in regards to this sample, please file a GitHub issue. This sample is not supported by Azure Support or Microsoft. 
+
