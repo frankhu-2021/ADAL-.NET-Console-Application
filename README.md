@@ -1,5 +1,6 @@
 # !NOTE:
 It is recommended now to utilize the MSAL .net library : https://github.com/AzureAD/microsoft-authentication-library-for-dotnet
+
 This console app may work with the packages :
 ```
 <packages>
@@ -14,7 +15,9 @@ This console app may work with the packages :
 </packages>
 ```
 
-But your mileage may vary. 
+But your mileage may vary as the ADAL library has plans to be deprecated : 
+https://github.com/AzureAD/azure-activedirectory-library-for-dotnet
+
 
 # ADAL-.NET-Console-Application
 This is an ADAL .net Console application that will get 5 users from the Microsoft Graph in the tenant that you define in the variables for the program.cs file.
