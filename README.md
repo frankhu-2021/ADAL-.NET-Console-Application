@@ -15,7 +15,7 @@ This console app may work with the packages :
 </packages>
 ```
 
-But your mileage may vary as the ADAL library has plans to be deprecated : 
+But your mileage may vary. See updates for the ADAL library here: 
 https://github.com/AzureAD/azure-activedirectory-library-for-dotnet
 
 
