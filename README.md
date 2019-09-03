@@ -1,8 +1,14 @@
 # ADAL-.NET-Console-Application
 This is an ADAL .net Console application that will get 5 users from the Microsoft Graph in the tenant that you define in the variables for the program.cs file.
 
-These variables are listed here : https://gist.github.com/frankhu1234/ba87de35d6a9393f550bc3f578955629
-
+These variables are :
+```
+        private static string resourceUri = "https://graph.microsoft.com";
+        private static string clientId = "<Replace With Your Client ID> ";
+        private static string redirectUri = "<Replace with your Redirect URI> ";
+        private static string authority = "https://login.microsoftonline.com/";
+        private static string tenantID = "<Replace with your TenantID>";
+```
 They are at the top of the Program.CS file in the repo. https://github.com/frankhu1234/ADAL-.NET-Console-Application/blob/master/MyTestADALConsoleApp/Program.cs
 
 The creation of this Application is explained in the AAD Dev Support blogs : https://blogs.msdn.microsoft.com/aaddevsup/2018/11/07/how-to-use-the-adal-net-library-to-call-the-microsoft-graph-api-in-a-console-application-using-authorization-code-flow/
